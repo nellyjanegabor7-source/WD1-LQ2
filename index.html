@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER / NAVBAR -->
+<header class="navbar">
+    <div class="nav-left">Facebook</div>
+
+    <div class="nav-center">
+        <a href="#">Home</a>
+        <a href="#">Chats</a>
+        <a href="#">Marketplace</a>
+    </div>
+
+    <div class="nav-right">
+        <div class="dropdown">
+            <button class="dropbtn">⚙ Settings</button>
+            <div class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- MAIN PAGE LAYOUT -->
+<div class="container">
+
+    <!-- NEWS FEED (80%) -->
+    <main class="newsfeed">
+
+        <!-- POST CARD 1 -->
+        <div class="card">
+            <div class="card-header">
+                <img src="src/pam.jpg" class="avatar">
+                <div>
+                    <h4>@pam</h4>
+                    <span>6 hrs ago</span>
+                </div>
+            </div>
+
+            <p>Gratitude is not Attitude</p>
+             <img src="src/0accb7ca-7537-4c1c-aa47-387fed37d938.jpg" alt="Post Image">
+
+            <div class="card-footer">
+                <span>👍 87</span>
+                <span>💬 16</span>
+                <span>↗ Share</span>
+            </div>
+        </div>
+
+        <!-- POST CARD 2 -->
+        <div class="card">
+            <div class="card-header">
+                <img src="src/pit.jpg" class="avatar">
+                <div>
+                    <h4>@pits</h4>
+                    <span>6 hrs ago</span>
+                </div>
+            </div>
+
+             <img src="src/30d92520-99cf-47eb-826d-acba997d95bc.jpg" alt="Post Image">
+
+
+            <div class="card-footer">
+                <span>👍 2.2K</span>
+                <span>💬 198</span>
+                <span>↗ Share</span>
+            </div>
+        </div>
+
+        <!-- POST CARD 3 -->
+        <div class="card">
+            <div class="card-header">
+                <img src="src/nell.jpg" class="avatar">
+                <div>
+                    <h4>@nell</h4>
+                    <span>2 hrs ago</span>
+                </div>
+            </div>
+
+            <img src="src/b6315931-ab90-48e7-935d-d52c352f9457.jpg" class="post-image">
+
+            <div class="card-footer">
+                <span>👍 12</span>
+                <span>💬 25</span>
+                <span>↗ Share</span>
+                <span>⭐ Saved</span>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <!-- ASIDE (20%) -->
+    <aside class="sidebar">
+        <h3>Your Profile</h3>
+        <div class="profile-box">
+            <img src="src/nell.jpg" class="avatar-big">
+            <p>Name: Nelly Jane Gabor</p>
+            <p>Username: @NJG</p>
+            <p>Address: San emilio Ilocos Sur</p>
+            <p>Birthday: nov 08, 2003</p>
+            <p>Joined: 2011</p>
+        </div>
+
+        <h3>Friends</h3>
+        <div class="friend-list">
+            <div class="friend"><img src="src/nig.jpg"> kyle Agacer</div>
+            <button class="btn add">+</button>
+            <div class="friend"><img src="src/mar.jpg"> Chrismary Manibloc</div>
+            <button class="btn add">+</button>
+            <div class="friend"><img src="src/pit.jpg"> Merly Pitong</div>
+            <button class="btn add">+</button>
+            <div class="friend"><img src="src/je.jpg"> Jewel Omaoeng</div>
+            <button class="btn add">+</button>
+            <div class="friend"><img src="src/pam.jpg"> Pamela Luis</div>
+            <button class="btn add">+</button>
+        </div>
+    </aside>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    Developed by Nelly Jane Gabor
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
